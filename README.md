@@ -11,7 +11,9 @@ Codingame template for golang to allow multi-file local repo and non-std librari
     // go:generate bundle -o ./../out/bundle.go -prefix "" .
     ```
 
- 1. Use codingame chrome extension to connect generated single file to browser IDE
+1.  ```cd src```
+2.  ```go generate```
+3. Use codingame chrome extension to connect generated single file to browser IDE
 
 
 ## How to bundle other libraries
