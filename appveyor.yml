@@ -8,6 +8,8 @@ branches:
   only:
     - main
 build: off
+install:
+  - go get -u golang.org/x/tools/...
 build_script:
   - pushd src
   - go generate
